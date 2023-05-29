@@ -1,0 +1,14 @@
+database management
+
+table movie :
+id movie
+name movie
+
+table schedule :
+id_schedule
+startDate
+lastDate
+
+table booking :
+id_booking
+id_seats

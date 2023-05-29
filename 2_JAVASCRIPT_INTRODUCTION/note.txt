@@ -1,0 +1,22 @@
+high level (dimengerti manusia/sintaksnya mudah dibaca), low level (dimengerti komputer)
+multi paradigma : 
+cthh : paradigma functional >> harus ngebuat function terlebih dahulu.
+       paradigma procedural >> harus ngikut alur.
+       paradigma OOP        >> object oriented programming.
+
+^^^^^
+Semuanya masuk ke javascript.
+
+dynamic-typing >> contoh tanpa perlu deklarasi tipe data.
+
+paradigma (bagaiman cara kita menggunakan bahasa pemrograman tertentu)
+
+ECMAscript >> ECMAscript (standar penulisan javascript).
+
+varialbe >> untuk menampung suatu data.
+tipe data >> mengatur tipe yg bisa kita masukkan kedalam variabel. (loosely types)
+
+spread operator : digunakan untuk mengcopy array/objek, menggabungkan array/objek menjadi satu.
+
+destructuring >> memecah nilai dari sebuah array atau object ke variabel yang berbeda.
+complex object

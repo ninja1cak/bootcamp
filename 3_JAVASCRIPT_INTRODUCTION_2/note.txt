@@ -1,0 +1,22 @@
+Objection : 
+  Function
+  Method
+  Callback
+
+tanpa function > procedural.
+
+//declaration_function
+function doStuff(){
+
+}
+
+//tips : buat variabel itu tambah kata kerja
+return function || void function
+
+return itu ada dua kemungkinan :
+  ekspektasi hasil
+  atau error
+
+this >> merefer nama Object
+
+baca baca method and function = mozilla js mdn
