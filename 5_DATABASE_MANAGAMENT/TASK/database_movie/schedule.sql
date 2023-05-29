@@ -5,7 +5,7 @@ CREATE TABLE schedule(
   date_end DATE NOT NULL,
   time_playing TIME[], 
   cinema_name VARCHAR(100) NOT NULL,
-  address_cinema TEXT NOT NULL,
+  cinema_address TEXT NOT NULL,
   price_seat NUMERIC(2),
   CONSTRAINT fk_id_movie
     FOREIGN KEY (id_movie)
