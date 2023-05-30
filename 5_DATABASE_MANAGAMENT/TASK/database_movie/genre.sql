@@ -27,7 +27,7 @@ VALUES
 SELECT g.id_genre,name_genre, string_agg(title_movie, ', ') FROM genre g
 JOIN bridge_movie_genre b ON g.id_genre = b.id_genre
 JOIN movie m ON m.id_movie = b.id_movie
-GROUP BY g.id_genre ORDER BY g.id_genre LIMIT 100;
+GROUP BY g.id_genre ORDER BY g.id_genre LIMIT 10;
 
 -- PAGINATION + READ
 SELECT * FROM genre ORDER BY name_genre ASC LIMIT 3;

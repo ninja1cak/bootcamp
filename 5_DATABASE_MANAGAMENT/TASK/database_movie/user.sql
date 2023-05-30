@@ -59,6 +59,8 @@ UPDATE users SET phone_number = 99992342 WHERE id_user = 2;
 
 -- DELETE
 DELETE FROM users WHERE id_user< 6;
+
+
 ALTER SEQUENCE users_id_user_seq RESTART WITH 1;
 ALTER TABLE users ALTER phone_number TYPE BIGINT;
 

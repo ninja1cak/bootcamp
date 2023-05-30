@@ -16,12 +16,7 @@ CREATE TABLE booking(
       
 );
 
-ALTER TABLE booking DROP payment_method
-ALTER TABLE booking ADD payment_method VARCHAR(50);
-
 -- CREATE
-
-
 INSERT INTO booking(
   id_movie,
   id_schedule,
@@ -96,7 +91,7 @@ UPDATE booking SET total_prices_booking = 30
 WHERE id_booking = 3;
 
 -- DELETE
-DELETE FROM booking WHERE id_booking = 7;
+DELETE FROM booking WHERE id_booking = 6;
 
 
 

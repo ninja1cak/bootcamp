@@ -86,7 +86,7 @@ INSERT INTO schedule(
 )
 
 -- READ
-SELECT date_part('year', release_date_movie), string_agg( DISTINCT title_movie, ', '), string_agg(cinema_name, ', ') 
+SELECT date_part('year', release_date_movie), string_agg( DISTINCT title_movie, ', ') title_movie, string_agg(cinema_name, ', ') cinema_name
 FROM movie m JOIN schedule s ON m.id_movie = s.id_movie
 GROUP BY m.id_movie;
 
