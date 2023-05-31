@@ -1,0 +1,13 @@
+# RESTful API
+
+# HTTP request method
+- GET
+- POST
+- PATCH
+- PUT
+- DELETE
+
+# CRUD 
+CREATE READ UPDATE DATE
+
+# EXPRESS
